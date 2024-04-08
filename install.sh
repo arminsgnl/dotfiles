@@ -14,18 +14,18 @@ export DOTFILES_LOCATION;
 ./bin/dotfiles install omz
 ./bin/dotfiles install zsh
 # ./bin/dotfiles install brew
-./bin/dotfiles install vscode
+# ./bin/dotfiles install vscode
 # ./bin/dotfiles install zed
 #./bin/dotfiles install sublime-text
-./bin/dotfiles install git
-./bin/dotfiles install github
+# ./bin/dotfiles install git
+# ./bin/dotfiles install github
 # ./bin/dotfiles install node
 # ./bin/dotfiles install mongodb
 # ./bin/dotfiles install php
 # ./bin/dotfiles install k9s
 ./bin/dotfiles install starship
 ./bin/dotfiles install tmux
-./bin/dotfiles install vim
+# ./bin/dotfiles install vim
 ./bin/dotfiles install aws-sso
 
 echo "🚀 Manual installation/updates"
