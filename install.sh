@@ -26,6 +26,7 @@ export DOTFILES_LOCATION;
 ./bin/dotfiles install starship
 ./bin/dotfiles install tmux
 ./bin/dotfiles install vim
+./bin/dotfiles install aws-sso
 
 echo "🚀 Manual installation/updates"
 echo "Omz      omz update"
