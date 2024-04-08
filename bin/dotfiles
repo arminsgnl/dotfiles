@@ -12,6 +12,7 @@ case "${command}" in
   "install")
     package="${1}"
     echo "🚀 Installing package: ${package}"
+    (chmod -R 755 "${DOTFILES_LOCATION}/${package}")
     (cd "${DOTFILES_LOCATION}/${package}" && ./install.sh)
     echo "\n"
     ;;
